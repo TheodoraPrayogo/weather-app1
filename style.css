@@ -77,3 +77,8 @@ li {
 .container {
   color: rgb(28, 26, 26);
 }
+
+#id {
+    display:block;
+    margin: 0 auto;
+}
