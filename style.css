@@ -1,0 +1,79 @@
+.content {
+  text-align: center;
+  border: 2px solid black;
+  max-width: 500px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+
+header {
+  background-size: cover;
+  border-radius: 10px;
+  color: black;
+  text-align: left;
+  font-family: "Nothing You Could Do", cursive;
+  font-family: "Roboto Mono", monospace;
+}
+
+#weather {
+  display: block;
+  margin: 0 auto;
+}
+
+#current-button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  border: solid black;
+}
+
+.today {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.icon {
+  font-size: 25px;
+}
+
+.span-unit {
+  font-size: 18px;
+  position: relative;
+  top: -15px;
+  left: -10px;
+  transition: 150ms ease-in-out;
+}
+
+.span-unit:hover {
+  cursor: pointer;
+  color: white;
+}
+
+ul {
+  padding-top: 40px;
+}
+
+li {
+  font-size: 20px;
+  list-style: none;
+  position: relative;
+  line-height: 1.4;
+}
+
+.current-day .current-time {
+  font-size: 30px;
+}
+
+.col {
+  padding: 5px;
+}
+
+.container {
+  color: rgb(28, 26, 26);
+}
